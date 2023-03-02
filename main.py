@@ -1,8 +1,10 @@
-import numpy
-import pandas
+import numpy as np
+import pandas as pd
 import seaborn as sns
 
-#import dataset
-dataset = pandas.read_csv('dataset-ml-25m/movies.csv', sep=',')
-#print dataset
-print(dataset)
+path = '/Users/isabella/Desktop/dataset-ml-25m/'
+
+dataset = pd.read_csv(path + 'dataset.csv', sep=',')
+
+
+
