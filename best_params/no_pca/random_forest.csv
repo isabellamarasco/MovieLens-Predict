@@ -1,2 +1,2 @@
 criterion,n_estimators
-friedman_mse,30
+squared_error,30
